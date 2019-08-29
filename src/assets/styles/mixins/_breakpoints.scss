@@ -1,0 +1,21 @@
+@mixin breakpoint($class) {
+  @if $class == mobile {
+    @media (max-width: 500px) { @content; }
+  }
+
+  @if $class == tablet {
+    @media (max-width: 768px) { @content; }
+  }
+
+  @if $class == ipad {
+    @media (max-width: 1024px) { @content; }
+  }
+
+  @if $class == lg {
+    @media (max-width: 1200px) { @content; }
+  }
+
+  @if $class == normal {
+    @media (max-width: 1280px) { @content; }
+  }
+}

@@ -1,0 +1,22 @@
+/*
+Theme Name: Chalets du V
+Version: 1.0
+*/
+
+// Reset
+@import './vendors/reset';
+
+// Mixins
+@import './mixins/breakpoints';
+
+// Base
+@import './base/fonts';
+@import './base/variables';
+@import './base/global';
+@import './base/typography';
+@import './base/helpers';
+
+// Vendors
+@import './vendors/lazy-load';
+
+// Components
