@@ -1,4 +1,4 @@
-# chalets-du-v
+# Boilerplate wordpress barba
 
 ## Running / Development
 * `npm run dev`
