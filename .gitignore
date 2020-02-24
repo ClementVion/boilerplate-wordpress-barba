@@ -32,3 +32,5 @@ npm-debug.log
 
 *.map
 /nbproject/private/
+
+package-lock.json
